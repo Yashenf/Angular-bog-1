@@ -1,0 +1,32 @@
+footer{
+    background-color: #f1f2f6;
+    margin-top: 80vh;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.site-logo{
+    text-align: center;
+    font-size: 20px;
+}
+ul{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul>li{
+    list-style: none;
+}
+a{
+    font-size: 14px;
+    color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

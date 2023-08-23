@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto&display=swap");
+* {
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+:root{
+  --primary-color:#026467;
+  --secondery-color:#E5F5EA;
+  --body-text-color:#596392;
+
+}
+p{
+  color: var(--body-text-color);
+}
