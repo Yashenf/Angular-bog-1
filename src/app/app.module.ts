@@ -12,6 +12,7 @@ import { SingleCatageyComponent } from './components/single-catagey/single-catag
 import { SubscriptionComponent } from './components/subscription/subscription.component';
 import { CommentComponent } from './components/comment/comment.component';
 import { CommentListComponent } from './components/comment-list/comment-list.component';
+import { SinglePostCardComponent } from './components/single-post-card/single-post-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CommentListComponent } from './components/comment-list/comment-list.com
     SingleCatageyComponent,
     SubscriptionComponent,
     CommentComponent,
-    CommentListComponent
+    CommentListComponent,
+    SinglePostCardComponent
   ],
   imports: [
     BrowserModule,
