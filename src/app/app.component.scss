@@ -2,3 +2,12 @@
   margin-top: 150px;
   min-height: 35vh;
 }
+.main-header{
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  width: 100vw;
+  height: 100px;
+  background-color:white;
+  border: 1px solid red;
+}
